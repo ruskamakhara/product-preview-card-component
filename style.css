@@ -1,0 +1,175 @@
+body{
+    background-color: #F2EAE2;
+    
+}
+
+.chanel{
+    margin:auto;
+    width:343px;
+    height:611px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img{
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+}
+
+.second-img{
+display: none;
+}
+
+
+main{
+padding:24px;
+flex-direction: column;
+}
+
+.perfume{
+    margin-top:-3px;
+    color: #6C7289;
+    font-family: 'Montserrat';
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 5px;
+}
+
+h1{
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+color: #1C232B;
+margin-top: 5px;
+}
+
+h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 23px;
+color: #6C7289;
+margin-top:-5px;
+}
+
+h3{
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+color: #3D8168;
+margin-top:18px;
+}
+
+.price{
+    color: #6C7289;
+    margin-left: 145px;
+    margin-top: -56px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 23px;
+text-decoration-line: line-through;
+}
+
+.cart{
+    width: 295px;
+    height: 48px;
+    background-color: #3D8168;
+    margin:auto;
+    margin-top: -12px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+
+}
+.cart:hover{
+    background-color: #1A4032;
+    transition:color 0.01s;
+
+}
+
+.box{
+    margin-left: 92px;
+    
+}
+.basket{
+    margin-top:16px;
+}
+
+h4{
+    margin-left: 25px;
+    margin-top:-20px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
+
+
+@media screen and (min-width:720px){
+    .chanel{
+        
+        margin:auto;
+        width: 600px;
+        height: 450px;
+    }
+    main{
+        margin-left:315px;
+        margin-top:-200px;
+    }
+    
+    .perfume{
+        margin-top: -240px;
+        } 
+
+    .cart{
+        margin-top:-15px;
+        margin-left:339px;
+        width: 236px;
+        height: 48px;
+        cursor: pointer;
+
+
+    }
+
+    h4{
+      display: flex;
+      padding:15px;
+      margin-left:10px;
+      margin-top: -47px
+    }
+
+    .box{
+        margin-left:65px;
+    }
+
+    .basket{
+        display: block;
+        padding: 16px;
+    margin-left: -20px
+    }
+    
+     img{
+display: none;   
+
+  }  
+
+.second-img{
+    display:block;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+}
+    
+
+}
+
